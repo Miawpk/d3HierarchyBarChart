@@ -2,7 +2,7 @@
  "name": "flare",
  "children": [
   {
-   "name": "analytics",
+   "name": "AEAS1",
    "children": [
     {
      "name": "cluster",
@@ -32,7 +32,7 @@
    ]
   },
   {
-   "name": "animate",
+   "name": "AEAS2",
    "children": [
     {"name": "Easing", "value": 17010},
     {"name": "FunctionSequence", "value": 5842},
