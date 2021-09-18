@@ -5,22 +5,36 @@
    "name": "AEAS1",
    "children": [
     {
-     "name": "cluster",
+     "name": "Mission",
      "children": [
-      {"name": "AgglomerativeCluster", "value": 3938},
-      {"name": "CommunityStructure", "value": 3812},
-      {"name": "HierarchicalCluster", "value": 6714},
-      {"name": "MergeEdge", "value": 743}
-     ]
-    },
-    {
-     "name": "graph",
+      {"name": "MissonStatement", "value": 3938},
+      {"name": "MissionDocumented", "value": 3812},
+      {"name": "MissionFunction", "value": 6714},
+      {"name": "MissionProcess", "value": 743},
+      {"name": "MissionUnderstoood", "value": 100},
+      {
+      "name": "MissionTraining",
+      "children": [
+      {"name": "MCP", "value": 100},
+      {"name": "MCG", "value": 100},
+      {"name": "MCN", "value": 100}
+      ]
+     },
+     { 
+     "name": "KnowledgeManagement",
      "children": [
-      {"name": "BetweennessCentrality", "value": 3534},
-      {"name": "LinkDistance", "value": 5731},
-      {"name": "MaxFlowMinCut", "value": 7840},
-      {"name": "ShortestPaths", "value": 5914},
-      {"name": "SpanningTree", "value": 3416}
+      {"name": "KMProgram", "value": 75},
+      {"name": "KMProfessional", "value": 75},
+      {"name": "KMStrategy", "value": 75},
+      {"name": "KMExecution", "value": 75},
+      {
+      "name": "KMProcesses",
+      "children": [
+       {"name": "KMPractice", "value": 75},
+       {"name": "KMCollaboration", "value": 75},
+       {"name": "KMProcessImprovement", "value": 75},
+       {"name": "KMContentManagement", "value": 75},
+       {"name": "KMTraining", "value": 75}
      ]
     },
     {
